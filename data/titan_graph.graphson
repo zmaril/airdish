@@ -1,0 +1,213 @@
+{
+  "mode": "NORMAL",
+  "vertices": [
+    {
+      "name": "saturn",
+      "age": 10000,
+      "type": "titan",
+      "_id": 4,
+      "_type": "vertex"
+    },
+    {
+      "name": "sky",
+      "type": "location",
+      "_id": 8,
+      "_type": "vertex"
+    },
+    {
+      "name": "sea",
+      "type": "location",
+      "_id": 12,
+      "_type": "vertex"
+    },
+    {
+      "name": "jupiter",
+      "age": 5000,
+      "type": "god",
+      "_id": 16,
+      "_type": "vertex"
+    },
+    {
+      "name": "neptune",
+      "age": 4500,
+      "type": "god",
+      "_id": 20,
+      "_type": "vertex"
+    },
+    {
+      "name": "hercules",
+      "age": 30,
+      "type": "demigod",
+      "_id": 24,
+      "_type": "vertex"
+    },
+    {
+      "name": "alcmene",
+      "age": 45,
+      "type": "human",
+      "_id": 28,
+      "_type": "vertex"
+    },
+    {
+      "name": "pluto",
+      "age": 4000,
+      "type": "god",
+      "_id": 32,
+      "_type": "vertex"
+    },
+    {
+      "name": "nemean",
+      "type": "monster",
+      "_id": 36,
+      "_type": "vertex"
+    },
+    {
+      "name": "hydra",
+      "type": "monster",
+      "_id": 40,
+      "_type": "vertex"
+    },
+    {
+      "name": "cerberus",
+      "type": "monster",
+      "_id": 44,
+      "_type": "vertex"
+    },
+    {
+      "name": "tartarus",
+      "type": "location",
+      "_id": 48,
+      "_type": "vertex"
+    }
+  ],
+  "edges": [
+    {
+      "_id": "2z-g-2F0LaTPQBw",
+      "_type": "edge",
+      "_outV": 16,
+      "_inV": 4,
+      "_label": "father"
+    },
+    {
+      "reason": "loves fresh breezes",
+      "_id": "2B-g-2F0LaTPQBU",
+      "_type": "edge",
+      "_outV": 16,
+      "_inV": 8,
+      "_label": "lives"
+    },
+    {
+      "_id": "2D-g-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 16,
+      "_inV": 20,
+      "_label": "brother"
+    },
+    {
+      "_id": "2F-g-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 16,
+      "_inV": 32,
+      "_label": "brother"
+    },
+    {
+      "reason": "loves waves",
+      "_id": "2H-k-2F0LaTPQBU",
+      "_type": "edge",
+      "_outV": 20,
+      "_inV": 12,
+      "_label": "lives"
+    },
+    {
+      "_id": "2J-k-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 20,
+      "_inV": 16,
+      "_label": "brother"
+    },
+    {
+      "_id": "2L-k-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 20,
+      "_inV": 32,
+      "_label": "brother"
+    },
+    {
+      "_id": "2N-o-2F0LaTPQBw",
+      "_type": "edge",
+      "_outV": 24,
+      "_inV": 16,
+      "_label": "father"
+    },
+    {
+      "_id": "2P-o-2F0LaTPQBE",
+      "_type": "edge",
+      "_outV": 24,
+      "_inV": 28,
+      "_label": "mother"
+    },
+    {
+      "time": 1,
+      "place": "point[38.1,23.7]",
+      "_id": "2R-o-2F0LaTPQBM",
+      "_type": "edge",
+      "_outV": 24,
+      "_inV": 36,
+      "_label": "battled"
+    },
+    {
+      "time": 2,
+      "place": "point[37.7,23.9]",
+      "_id": "2T-o-2F0LaTPQBM",
+      "_type": "edge",
+      "_outV": 24,
+      "_inV": 40,
+      "_label": "battled"
+    },
+    {
+      "time": 12,
+      "place": "point[39.0,22.0]",
+      "_id": "2V-o-2F0LaTPQBM",
+      "_type": "edge",
+      "_outV": 24,
+      "_inV": 44,
+      "_label": "battled"
+    },
+    {
+      "reason": "no fear of death",
+      "_id": "31-w-2F0LaTPQBU",
+      "_type": "edge",
+      "_outV": 32,
+      "_inV": 48,
+      "_label": "lives"
+    },
+    {
+      "_id": "33-w-2F0LaTPQC2",
+      "_type": "edge",
+      "_outV": 32,
+      "_inV": 44,
+      "_label": "pet"
+    },
+    {
+      "_id": "2Z-w-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 32,
+      "_inV": 20,
+      "_label": "brother"
+    },
+    {
+      "_id": "2X-w-2F0LaTPQCa",
+      "_type": "edge",
+      "_outV": 32,
+      "_inV": 16,
+      "_label": "brother"
+    },
+    {
+      "_id": "35-I-2F0LaTPQBU",
+      "_type": "edge",
+      "_outV": 44,
+      "_inV": 48,
+      "_label": "lives"
+    }
+  ]
+}
