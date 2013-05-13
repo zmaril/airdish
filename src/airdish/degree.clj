@@ -11,23 +11,18 @@ nodes."
               trv
               q/count!)))
 
-(defn degrees-of 
-  ([vtxs] (degrees-of vtxs q/both))
-  ([vtxs trv]
-     (map #(degree-of % trv) vtxs)))
-
 (defn degree-sequence
   ([vtxs] (degree-sequence vtxs q/both))
-  ([vtxs trv] (sort > (degrees-of vtxs trv))))
+  ([vtxs trv] (sort > (map #(degree-of % trv) vtxs))))
 
 (defn max-degree
   "Returns the maximum degree of the given graph."
   ([vtxs] (max-degree vtxs q/both))
-  ([vtxs trv] (apply max (degrees-of vtxs trv))))
+  ([vtxs trv] (apply max (map #(degree-of % trv) vtxs))))
 
 (defn min-degree
   "Returns the maximum degree of the given graph."
   ([vtxs] (min-degree vtxs q/both))
-  ([vtxs trv] (apply min (degrees-of vtxs trv))))
+  ([vtxs trv] (apply min (map #(degree-of % trv) vtxs))))
 
 
